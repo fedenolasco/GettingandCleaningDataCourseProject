@@ -16,7 +16,7 @@ The purpose is to create one R script called run_analysis.R that does the follow
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 The output is created in working directory with the name of tidydata1.txt and tidydata2.txt
 # run_analysis.R steps
-Step 1: Tidy test data and train data and include only mean and std variables.
+##Step 1: Tidy test data and train data and include only mean and std variables.
 Load names for feature vectors
 Determine column labels that match mean or std
 dataset 1: load test data.
