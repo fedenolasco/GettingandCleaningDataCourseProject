@@ -18,22 +18,22 @@ The output is created in working directory with the name of tidydata1.txt and ti
 # run_analysis.R steps
 Step 1: Tidy test data and train data and include only mean and std variables.
 Load names for feature vectors
-## Determine column labels that match mean or std
-## dataset 1: load test data.
-# Load subjects
-# Load activity data
-# Load 561 vectors
-# Extracts only the measurements on the mean and standard deviation for each measurement
-# Build tidy dataset 1 with test data; source, activities, subjects and vectors
-## dataset 2: training data
-# Load activity data
-# Load subjects
-# Load 561 vectors
-# Extracts only the measurements on the mean and standard deviation for each measurement
-# Build tidy dataset 2 with train data; source, activities, subjects and vectors
+Determine column labels that match mean or std
+dataset 1: load test data.
+Load subjects
+Load activity data
+Load 561 vectors
+Extracts only the measurements on the mean and standard deviation for each measurement
+Build tidy dataset 1 with test data; source, activities, subjects and vectors
+dataset 2: training data
+Load activity data
+Load subjects
+Load 561 vectors
+Extracts only the measurements on the mean and standard deviation for each measurement
+Build tidy dataset 2 with train data; source, activities, subjects and vectors
 Step 2: Merge data of test- and train datasets and include descriptive activity names
-## load activity labels
-# remove underscore and convert to lowercase activity label
-# merge test data and train data
-#convert to data.frame to use aggregate function
-# write the resulting datasets for upload tidydata01 and tidydata02
+load activity labels
+remove underscore and convert to lowercase activity label
+merge test data and train data
+convert to data.frame to use aggregate function
+write the resulting datasets for upload tidydata01 and tidydata02
