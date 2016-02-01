@@ -5,7 +5,7 @@ Human Activity Recognition Using Smartphones Dataset http://archive.ics.uci.edu/
 # Files and Datasource:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ####README.md -- you are reading it right now
-####CodeBook.md -- codebook describing variables, the data and transformations
+####CodeBook.md -- codebook describing variables, the data
 ####run_analysis.R -- actual R code
 # run_analysis.R goals
 The purpose is to create one R script called run_analysis.R that does the following.
