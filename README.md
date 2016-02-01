@@ -4,9 +4,9 @@ The purpose of this project demonstrates the ability to collect, work with, and 
 Human Activity Recognition Using Smartphones Dataset http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 # Files and Datasource:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-•	README.md -- you are reading it right now
-•	CodeBook.md -- codebook describing variables, the data and transformations
-•	run_analysis.R -- actual R code
+####README.md -- you are reading it right now
+####CodeBook.md -- codebook describing variables, the data and transformations
+####run_analysis.R -- actual R code
 # run_analysis.R goals
 The purpose is to create one R script called run_analysis.R that does the following.
 1. Merges the training and the test sets to create one data set.
